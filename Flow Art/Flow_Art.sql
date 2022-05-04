@@ -13,14 +13,10 @@ PublishDate date
 drop table Books
 select * from Books
 
-/*
-create table Songs(
-SongID int identity(1,1),
-SongIcon nvarchar(500),
-SongTitle nvarchar(500),
-SongArtist nvarchar(500),
-SongGenre nvarchar(500),
-Album nvarchar(500),
-ReleaseDate date
+
+
+create table City(
+CityID int identity(1,1),
+CityName nvarchar(500)
 )
-*/
+insert into City values('Prizren')
